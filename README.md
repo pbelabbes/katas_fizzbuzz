@@ -1,23 +1,12 @@
-# node-typescript-jest-boilerplate
+# FizzBuzz
 
-Boilerplate for a node server or library written in typescript, using jest as
-the test runner.
+- Write a program that prints one line for each number from 1 to 100
+- For multiples of three print Fizz instead of the number
+- For the multiples of five print Buzz instead of the number
+- For numbers which are multiples of both three and five print FizzBuzz instead
+  of the number
 
-## Usage
+## Creditg
 
-Clone the boilerplate as a new project:
-
-```bash
-git clone https://github.com/bschlenk/node-typescript-jest-boilerplate.git <project>
-```
-
-Update [package.json](package.json) as you see fit.
-
-## Modifications
-
-If this is for a library only, then chances are you don't need nodemon. You can
-make the following changes to remove it:
-
-- Delete `nodemon.json`
-- Remove `watch` from `package.json` scripts
-- Remove `nodemon` from `package.json` devDependencies
+This kata was done during a coding game session on
+[Le comptoir du dev](https://www.twitch.tv/lecomptoirdudev_)
